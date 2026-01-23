@@ -8,7 +8,7 @@ const App = () => {
             className="field__label"
             htmlFor="new-task"
           >
-            New task
+            New task 1
           </label>
           <input
             className="field__input"
