@@ -1,4 +1,4 @@
-const useTaskLocalSrorage = () => {
+const useTaskLocalStorage = () => {
     const savedTasks = localStorage.getItem('tasks')
 
     const saveTasks = (tasks) => {
@@ -11,4 +11,4 @@ const useTaskLocalSrorage = () => {
     }
 }
 
-export default useTaskLocalSrorage
+export default useTaskLocalStorage
