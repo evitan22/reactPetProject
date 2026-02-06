@@ -53,14 +53,14 @@
   }
 }
 
-.todo__list {
+.list {
   --todoListRowGap: 8px;
 
   display: grid;
   row-gap: var(--todoListRowGap);
 }
 
-.todo__empty-message {
+.empty-message {
   text-align: center;
   color: var(--color-gray-4);
 }
