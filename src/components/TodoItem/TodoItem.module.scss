@@ -51,7 +51,7 @@
     background-color: var(--color-dark-2);
     border-color: var(--color-dark-2);
 
-    & + .todo-item__label {
+    & + .label {
       color: var(--color-gray-4);
       text-decoration: line-through;
     }
@@ -85,6 +85,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  width: 44px;
   height: 44px;
   margin-left: auto;
   padding: 0;
